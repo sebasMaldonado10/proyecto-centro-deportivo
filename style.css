@@ -34,6 +34,7 @@ nav{
 }
 .navbar .column {
     text-align: center;
+    padding: 1rem;
 }
 .navbar a{
     color: var(--texto-claro);
@@ -66,7 +67,8 @@ form {
 .footer{
     background-color: var(--color-head-foot);
     color: var(--texto-claro);
-    text-align: center;
+    text-align:  center;
+    padding-top: 4rem;   
 }
 
 /*Margin verticalmete de 2rem y nada a los lados*/
