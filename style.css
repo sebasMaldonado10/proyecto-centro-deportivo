@@ -1,0 +1,80 @@
+/*=====VARIABLES=====*/
+:root{
+    --color-fondo: #242323;
+    --color-head-foot: #333;
+    --texto-claro: rgb(236, 227, 227);
+    --texto-oscuro: rgb(20, 20, 20);
+    --color-botones: rgb(173, 2, 173);
+}
+
+/*=====DOCUMENTO GENERAL=====*/
+header {
+    background-color: var(--color-head-foot);
+    color: var(--texto-claro);
+    padding: 1rem;
+}
+body{
+    background-color: var(--color-fondo);
+    color: var(--texto-claro);
+}
+
+/*=====ELEMENTOS COMUNES=====*/
+.titulo {
+    text-align: center;
+    margin: 3rem;
+}
+.column h3 {
+    margin-top: 5rem;
+}
+
+/*=====PRINCIPALES=====*/
+/*Navbar*/
+nav{
+    margin-bottom: 0.5rem;
+}
+.navbar .column {
+    text-align: center;
+}
+.navbar a{
+    color: var(--texto-claro);
+    background-color: var(--color-botones);
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+/*hago las imagenes responsive*/
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/*Formulario*/
+.fondo{
+    background-image: url(images/fondo.png);
+    background-size: cover;
+    background-position: center;
+    padding: 5rem;
+}
+form {
+    color: var(--texto-claro);
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 5rem;
+    border-radius: 3rem;
+}
+
+/*Footer*/
+.footer{
+    background-color: var(--color-head-foot);
+    color: var(--texto-claro);
+    text-align: center;
+}
+
+/*Margin verticalmete de 2rem y nada a los lados*/
+.row {
+    margin: 2rem 0; 
+}
+
+/*ESto evita el desbordamiento horizontal*/
+body {
+    overflow-x: hidden;
+}
