@@ -16,6 +16,7 @@ header {
 body{
     background-color: var(--color-fondo);
     color: var(--texto-claro);
+    overflow-x: hidden; /*ESto evita el desbordamiento horizontal*/
 }
 
 /*=====ELEMENTOS COMUNES=====*/
@@ -25,6 +26,10 @@ body{
 }
 .column h3 {
     margin-top: 5rem;
+}
+/*Margin verticalmete de 2rem y nada a los lados*/
+.row {
+    margin: 2rem 0; 
 }
 
 /*=====PRINCIPALES=====*/
@@ -42,7 +47,7 @@ nav{
     border-radius: 0.5rem;
     padding: 1rem;
 }
-/*hago las imagenes responsive*/
+/*imagenes responsive*/
 img {
     max-width: 100%;
     height: auto;
@@ -70,13 +75,7 @@ form {
     text-align:  center;
     padding-top: 4rem;   
 }
-
-/*Margin verticalmete de 2rem y nada a los lados*/
-.row {
-    margin: 2rem 0; 
-}
-
-/*ESto evita el desbordamiento horizontal*/
-body {
-    overflow-x: hidden;
+.footer li{
+    padding-left: 10rem;
+    text-align: left;
 }
