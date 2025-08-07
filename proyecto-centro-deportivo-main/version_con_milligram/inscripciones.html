@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+    <link rel="stylesheet" href="CSS/style.css"> 
+    
+    <title>Inscripciones</title>
+</head>
+
+<header>
+    <h1 class="titulo">Inscripciones</h1>
+<!--Menu de navegacion--> 
+    <nav class="row navbar">
+        <div class="column">
+            <a href="index.html">Inicio</a>
+        </div>
+        <div class="column">
+            <a href="actividades.html">Actividades</a>
+        </div>
+        <div class="column">
+            <a href="inscripciones.html">Inscripciones</a>
+        </div>
+    </nav>
+</header>
+
+<body>
+<!--Formulario de inscripciones-->      
+    <main class="fondo"> 
+        <section>
+            <form>
+                <fieldset>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" placeholder="Nombre" id="nombre">
+
+                    <label for="apellido">Apellido</label>
+                    <input type="text" placeholder="Apellido" id="apellido">
+
+                    <label for="edad">Edad</label>
+                    <input type="number" placeholder="Edad">
+
+                    <label for="actividad">Actividad</label>
+                    <select id="actividad">
+                        <option value="tenis">Tenis</option>
+                        <option value="natacion">Natacion</option>
+                        <option value="baloncesto">Baloncesto</option>
+                    </select>
+
+                    <div class="float-right">
+                        <input class="button button-clear" type="submit" value="Borrar">
+                    </div>
+                    <input class="button-primary" type="submit" value="Send">
+                </fieldset>
+            </form>
+        </section>
+    </main>
+</body>
+
+<footer>
+    <section class="row footer">
+        <div class="column">
+            <p>Ubicacion</p>
+            <ul>
+                <li>Avenida Sabatini 345</li>
+            </ul>
+        </div>
+        <div class="column">
+            <p>Contacto</p>
+            <ul>
+                <li>Escribinos a <a href="mailto:#">google@goolge.com</a></li>
+                <li>Seguinos en Instagram <a href="#">Centro Deportivo</a></li>
+                <li>Mandanos un mensaje a <a href="#">3585123456</a></li>
+            </ul>
+        </div>                
+    </section>
+</footer>
+</html>

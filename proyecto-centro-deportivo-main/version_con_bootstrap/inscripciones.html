@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Inscripciones</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="CSS/style.css"> 
+  </head>
+<!--NAVBAR-->
+<!--NAVBAR-->
+<header>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid d-flex flex-column align-items-center">
+      <h1 class="titulo text-center">Inscripciones</h1>
+      <div>
+        <a class="btn btn-outline-success mx-5 my-2" href="index.html">Inicio</a>
+        <a class="btn btn-outline-success mx-5 my-2" href="actividades.html">Actividades</a>
+        <a class="btn btn-outline-success mx-5 my-2" href="inscripciones.html">Inscripciones</a>
+      </div>
+    </div>
+  </nav>
+</header> <!--usamos p y m para ajustar los margins y paddings-->
+<!--FORMULARIO-->
+<body>
+  <div class="fondo">  
+    <div class="container my-5">
+      <form>
+        <div class="mb-3">
+          <label for="nombre" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="nombre" placeholder="nombre" required>
+        </div>
+        <div class="mb-3">
+          <label for="apellido" class="form-label">Apellido</label>
+          <input type="text" class="form-control" id="apellido" placeholder="apellido" required> <!--los campos deben rellenarse sí o sí-->
+        </div>
+        <div class="mb-3">
+          <label for="edad" class="form-label">Edad</label>
+          <input type="number" class="form-control" id="edad" placeholder="edad" required>
+        </div>
+        <label for="actividad" class="form-label">Actividad</label>
+        <select class="form-select" id="actividad">
+          <option selected>Elegi una actividad</option>
+          <option value="1">Tenis</option>
+          <option value="2">Natacion</option>
+          <option value="3">Baloncesto</option>
+        </select>
+        <div class="d-flex justify-content-between mt-3">
+          <button type="submit" class="btn btn-success">Send</button>
+          <input class="btn btn-primary" type="reset" value="Reset">
+        </div>
+      </form>
+    </div>
+  </div> 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</body>
+<!--FOOHER-->
+<footer>
+  <div class="container"> <!--Un contenedor-->
+    <div class="row"> <!--Una fila-->
+      <div class="col"> <!--Una columna-->
+        <p>Ubicacion</p>
+          <ul class="list-group">
+            <li class="list-group-item">Avenida Sabatini 345</li>
+          </ul>
+      </div>
+      <div class="col"> <!--otra columna-->
+        <p>Contacto</p>
+          <ul class="list-group">
+            <li class="list-group-item">Escribinos a <a href="mailto:#">google@goolge.com</a></li>
+            <li class="list-group-item">Seguinos en Instagram <a href="#">Centro Depor</a></li>
+            <li class="list-group-item">Mandanos un mensaje a <a href="#">3585123456</a></li>
+          </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</html>
