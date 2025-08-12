@@ -4,7 +4,6 @@
     --color-head-foot: #333;
     --texto-claro: rgb(236, 227, 227);
     --texto-oscuro: rgb(20, 20, 20);
-    --color-botones: rgb(173, 2, 173);
 }
 
 /*=====DOCUMENTO GENERAL=====*/
@@ -24,29 +23,11 @@ body{
     text-align: center;
     margin: 2rem; 
 }
-.column h3 {
-    margin-top: 5rem;
-}
-/*Margin verticalmete de 2rem y nada a los lados*/
-.row {
-    margin: 2rem 0; 
-}
+
 
 /*=====PRINCIPALES=====*/
 /*Navbar*/
-nav{
-    margin-bottom: 0.5rem;
-}
-.navbar .column {
-    text-align: center;
-    padding: 1rem;
-}
-.navbar a{
-    color: var(--texto-claro);
-    background-color: var(--color-botones);
-    border-radius: 0.5rem;
-    padding: 1rem;
-}
+
 /*imagenes responsive*/
 img {
     max-width: 100%;
@@ -56,7 +37,7 @@ img {
 
 /*Formulario*/
 .fondo{
-    background-image: url(../IMG/fondo.png);
+    background-image: url(images/fondo.png);
     background-size: cover;
     background-position: center;
     padding: 5rem;
