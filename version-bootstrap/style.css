@@ -26,13 +26,18 @@ body{
 
 
 /*=====PRINCIPALES=====*/
-/*Navbar*/
+
+.card {
+    background-color: var(--color-fondo);
+    color: var(--texto-claro);
+}
 
 /*imagenes responsive*/
 img {
     max-width: 100%;
     height: auto;
     display: block;
+    border-radius: 3%;
 }
 
 /*Formulario*/
